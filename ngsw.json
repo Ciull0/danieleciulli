@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1620804435718,
+  "timestamp": 1620853470641,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.43ab3932e13728f9083e.js",
+        "/main.c7e6c1675a239e04ee2b.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -56,8 +56,8 @@
     "/assets/icons/firefox-marketplace-512-512.png": "de6947aafc9b179de4d7b1af5857fac6996fd669",
     "/assets/img/LogoCiulli.png": "157c852352bf8188bc05f194119bebf010097064",
     "/favicon.ico": "2e27f09b9e6b3649c01c4d61c0d17c9837b3b110",
-    "/index.html": "7272d0e451ecee106e38c15f698c473f0aa6b7f9",
-    "/main.43ab3932e13728f9083e.js": "77edcd1b39d14b66a213f2bb139588f7433980ab",
+    "/index.html": "e81eb4c39474613f4496477902c3278f662614b4",
+    "/main.c7e6c1675a239e04ee2b.js": "12b22217e3bfe63826ab01ccf01e80a0c8c94a29",
     "/manifest.webmanifest": "00e2f41b6486efad05b2327cd2701ad7e14400a6",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
