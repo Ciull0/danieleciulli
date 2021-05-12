@@ -1,1 +1,14 @@
-<p>textbox works!</p>
+<article *ngFor="let elem of data.content" class="textbox">
+    <div *ngIf="elem.title.length > 0">
+        <h1 [routerLink]="elem.link_interno" class="titleText">{{elem.title}}</h1>
+    </div>
+    <div *ngIf="elem.subtitle.length > 0">
+        <h3 [routerLink]="elem.link_interno" class="subTitleText text">{{elem.subtitle}}</h3>
+    </div>
+    <div class="body" *ngIf="elem.body.length > 10">
+        <p [routerLink]="elem.link_interno" [innerHTML]="this.makeNewLine(this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.elem.body))))))"></p>
+    </div>
+    <a class="buttonLink" href="{{elem.link_esterno}}" target="_blank" *ngIf="elem.footer.length > 0">
+        <h5 class="btnText text">{{elem.footer}}</h5>
+    </a>
+</article>

@@ -12,6 +12,7 @@ import { HeroComponent } from './hero/hero.component';
 import { CardComponent } from './card/card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { environment } from '../environments/environment';
     ProjectsComponent,
     TextboxComponent,
     HeroComponent,
-    CardComponent
+    CardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
