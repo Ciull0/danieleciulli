@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1620804435718,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.43ab3932e13728f9083e.js",
+        "/manifest.webmanifest",
+        "/polyfills.00096ed7d93ed26ee6df.js",
+        "/runtime.7b63b9fd40098a2e8207.js",
+        "/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icon/LogoCiulli.svg",
+        "/assets/icons/LargeTile.scale-125.png",
+        "/assets/icons/Square44x44Logo.targetsize-96.png",
+        "/assets/icons/android-launchericon-144-144.png",
+        "/assets/icons/android-launchericon-192-192.png",
+        "/assets/icons/android-launchericon-72-72.png",
+        "/assets/icons/chrome-extensionmanagementpage-48-48.png",
+        "/assets/icons/chrome-installprocess-128-128.png",
+        "/assets/icons/firefox-marketplace-512-512.png",
+        "/assets/img/LogoCiulli.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icon/LogoCiulli.svg": "d1da2352494322f372eb14eb96945487c12797f7",
+    "/assets/icons/LargeTile.scale-125.png": "64e2cb68d3ec090eee58e446163cfcf0694d82d4",
+    "/assets/icons/Square44x44Logo.targetsize-96.png": "363796882183d9b4f2435271d08a48101d89e642",
+    "/assets/icons/android-launchericon-144-144.png": "c7164d51f2ec55984f292c160ad29d2f0640958a",
+    "/assets/icons/android-launchericon-192-192.png": "f71be881433e9f6a85e5429f31170b2f5f8b632c",
+    "/assets/icons/android-launchericon-72-72.png": "48a5ab7f44115fa38f1ae1e2ea472f2464744626",
+    "/assets/icons/chrome-extensionmanagementpage-48-48.png": "06ee85ae0d4ef68690ed4079c33b17cecbe2e8e3",
+    "/assets/icons/chrome-installprocess-128-128.png": "3c88bd18917d9870740c9c1c746c963702813f4b",
+    "/assets/icons/firefox-marketplace-512-512.png": "de6947aafc9b179de4d7b1af5857fac6996fd669",
+    "/assets/img/LogoCiulli.png": "157c852352bf8188bc05f194119bebf010097064",
+    "/favicon.ico": "2e27f09b9e6b3649c01c4d61c0d17c9837b3b110",
+    "/index.html": "7272d0e451ecee106e38c15f698c473f0aa6b7f9",
+    "/main.43ab3932e13728f9083e.js": "77edcd1b39d14b66a213f2bb139588f7433980ab",
+    "/manifest.webmanifest": "00e2f41b6486efad05b2327cd2701ad7e14400a6",
+    "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
