@@ -1,0 +1,15 @@
+{
+  "targets": {
+    "danieleciulli-ad053": {
+      "hosting": {
+        "danieleciulli": [
+          "danieleciulli-ad053"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "dev": "danieleciulli-ad053",
+    "default": "danieleciulli-ad053"
+  }
+}
