@@ -1,0 +1,11 @@
+@import "../../styles";
+.joblist{
+    &:nth-child(odd){
+        background-color: black;
+        color: $primary;
+    }
+    &:nth-child(even){
+        color: black;
+        background-color: $primary;
+    }
+}
