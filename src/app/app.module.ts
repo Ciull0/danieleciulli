@@ -3,28 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { JoblistComponent } from './joblist/joblist.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { TextboxComponent } from './textbox/textbox.component';
+import { TwoPlusOneComponent } from './two-plus-one/two-plus-one.component';
+import { TwoElementsComponent } from './two-elements/two-elements.component';
+import { ThreeElementsComponent } from './three-elements/three-elements.component';
+import { HomeComponent } from './home/home.component';
+import { PageComponent } from './page/page.component';
 import { HeroComponent } from './hero/hero.component';
 import { CardComponent } from './card/card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { HomeComponent } from './home/home.component';
+import { TextboxComponent } from './textbox/textbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    JoblistComponent,
-    ProjectsComponent,
-    TextboxComponent,
+    TwoPlusOneComponent,
+    TwoElementsComponent,
+    ThreeElementsComponent,
+    HomeComponent,
+    PageComponent,
     HeroComponent,
     CardComponent,
-    HomeComponent
+    TextboxComponent
   ],
   imports: [
     BrowserModule,

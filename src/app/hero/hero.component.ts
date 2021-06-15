@@ -7,13 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  info = {
-    'link': "link",
-    'url': "url",
-    'title': "title",
-    'subTitle': "subTitle"
-  }
-
   constructor() { }
 
   ngOnInit(): void {

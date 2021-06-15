@@ -1,13 +1,15 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
 /out-tsc
-fire*
-/fire*/*
 # Only exists if Bazel was run
 /bazel-out
+
+#firebase
+fire*
+storage.rules
+.fire*
 
 # dependencies
 /node_modules
@@ -42,6 +44,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+
 # System Files
 .DS_Store
 Thumbs.db
