@@ -11,8 +11,12 @@ import { PageComponent } from './page/page.component';
 import { HeroComponent } from './hero/hero.component';
 import { CardComponent } from './card/card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { firebaseConfig } from '../environments/firebase';
 import { environment } from '../environments/environment';
 import { TextboxComponent } from './textbox/textbox.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AngularFireModule } from "@angular/fire";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
 
 @NgModule({
   declarations: [
@@ -28,6 +32,9 @@ import { TextboxComponent } from './textbox/textbox.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFirestoreModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,

@@ -13,16 +13,6 @@ export class TextboxComponent implements OnInit, OnChanges {
 
   ngOnInit(): void {
     this.testoDaInserire =this.makeNewLine(this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.text))))));
-    /*this.util.getLingua().subscribe( (ling)=>{
-      let testoProva= "testo di prova con *grassetto*, _sottolineato_, $corsivo$, (red)rosso(red) e un (link)link esterno[https://www.youtube.com/?gl=IT&hl=it](link)" 
-      this.lingua = ling;
-      this.testoDaInserire = this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.text.body)))));
-      console.log(this.putLink(testoProva))
-      console.log(this.makeBold(testoProva))
-      console.log(this.makeItalics(testoProva))
-      console.log(this.makeRed(testoProva))
-      console.log(this.makeUnderline(testoProva))
-    })*/
   }
 
   ngOnChanges():void{
