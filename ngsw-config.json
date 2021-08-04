@@ -26,5 +26,22 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "content",
+      "urls": [
+        "/curriculum",
+        "/about",
+        "/projects"
+      ],
+      "version": 1,
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "2d",
+        "timeout": "0u",
+        "strategy": "freshness"
+      }
+    }
   ]
 }

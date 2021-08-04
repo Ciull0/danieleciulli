@@ -3,38 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TwoPlusOneComponent } from './two-plus-one/two-plus-one.component';
-import { TwoElementsComponent } from './two-elements/two-elements.component';
-import { ThreeElementsComponent } from './three-elements/three-elements.component';
-import { HomeComponent } from './home/home.component';
-import { PageComponent } from './page/page.component';
-import { HeroComponent } from './hero/hero.component';
-import { CardComponent } from './card/card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { firebaseConfig } from '../environments/firebase';
 import { environment } from '../environments/environment';
-import { TextboxComponent } from './textbox/textbox.component';
-import { HttpClientModule } from '@angular/common/http';
-import { AngularFireModule } from "@angular/fire";
-import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
+import { CurriculumComponent } from './curriculum/curriculum.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TwoPlusOneComponent,
-    TwoElementsComponent,
-    ThreeElementsComponent,
+    NavComponent,
     HomeComponent,
-    PageComponent,
-    HeroComponent,
-    CardComponent,
-    TextboxComponent
+    CurriculumComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    AngularFireModule.initializeApp(firebaseConfig),
-    AngularFirestoreModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
