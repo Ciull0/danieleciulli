@@ -1,8 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 //Palette
 /* SCSS HEX */
-$yellow: #ffc72cff;
-$black: #040403ff;
-$red: #fb3640ff;
-$purple: #7e2e84ff;
-$blue: #2541b2ff;
+:root{
+    --text:#2a2a2a;
+    --background: #e6e6e6;
+    --primary: #ffc72c;
+    --secondary: #CD071E;
+    --tertiary: #7A7A7A;
+	@media (orefers-color-scheme: dark) {
+        --background:#2a2a2a;
+        --text: #e6e6e6;
+		--primary: #ffc72c;
+        --secondary: #9A0D15;
+        --tertiary: #00253C;
+	}
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}

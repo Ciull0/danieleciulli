@@ -1,0 +1,16 @@
+.nav {
+    &bar{
+        height: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 3rem;
+        padding: 0.5rem;
+        gap: 1rem;
+        background-color: var(--background);
+    }
+    &__link{
+        color: var(--text);
+        text-decoration: none;
+    }
+}
